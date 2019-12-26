@@ -1,0 +1,240 @@
+.font-26 {
+    font-size: 26px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-black {
+    background: black;
+}
+.line-limit {
+    display: -webkit-inline-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.only-lines-1{
+    -webkit-line-clamp: 1;
+}
+.only-lines-2{
+    -webkit-line-clamp: 2;
+}
+.only-lines-3{
+    -webkit-line-clamp: 3;
+}
+.only-lines-4{
+    -webkit-line-clamp: 4;
+}
+.only-lines-5{
+    -webkit-line-clamp: 5;
+}
+.only-lines-6{
+    -webkit-line-clamp: 6;
+}
+.font-white, .color-white{
+    color: rgba(255, 255, 255, 1);
+}
+.font-black, .color-black{
+    color: #212529;
+}
+
+/*Info: // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .font-sm-26 {
+        font-size: 26px;
+    }
+    
+    .font-sm-20 {
+        font-size: 20px;
+    }
+    
+    .font-sm-24 {
+        font-size: 24px;
+    }
+    
+    .font-sm-16 {
+        font-size: 16px;
+    }
+    
+    .font-sm-14 {
+        font-size: 14px;
+    }
+    
+    .font-sm-12 {
+        font-size: 12px;
+    }
+    
+    .font-sm-10 {
+        font-size: 10px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .font-md-26 {
+        font-size: 26px;
+    }
+    
+    .font-md-20 {
+        font-size: 20px;
+    }
+    
+    .font-md-24 {
+        font-size: 24px;
+    }
+    
+    .font-md-16 {
+        font-size: 16px;
+    }
+    
+    .font-md-14 {
+        font-size: 14px;
+    }
+    
+    .font-md-12 {
+        font-size: 12px;
+    }
+    
+    .font-md-10 {
+        font-size: 10px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .font-lg-26 {
+        font-size: 26px;
+    }
+    
+    .font-lg-20 {
+        font-size: 20px;
+    }
+    
+    .font-lg-24 {
+        font-size: 24px;
+    }
+    
+    .font-lg-16 {
+        font-size: 16px;
+    }
+    
+    .font-lg-14 {
+        font-size: 14px;
+    }
+    
+    .font-lg-12 {
+        font-size: 12px;
+    }
+    
+    .font-lg-10 {
+        font-size: 10px;
+    }
+
+    .py-lg-100{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .py-lg-150{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .font-xl-26 {
+        font-size: 26px;
+    }
+    
+    .font-xl-20 {
+        font-size: 20px;
+    }
+    
+    .font-xl-24 {
+        font-size: 24px;
+    }
+    
+    .font-xl-16 {
+        font-size: 16px;
+    }
+    
+    .font-xl-14 {
+        font-size: 14px;
+    }
+    
+    .font-xl-12 {
+        font-size: 12px;
+    }
+    
+    .font-xl-10 {
+        font-size: 10px;
+    }
+}
+
+/*Info: // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+/*Info: // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
