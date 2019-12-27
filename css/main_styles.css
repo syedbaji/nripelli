@@ -11,17 +11,19 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-h1{
-    font-size: 2rem;
+h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
 }
+h1{
+    font-size: 2rem;
+}
 h2{
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+}
+h6{
+    font-size: 1.5rem;
 }
 p{
     font-size: 16px;
@@ -40,7 +42,7 @@ p{
     color: white;
     text-shadow: 0.5px 0.5px 0px #000;
 }
-.header-section{
+.header-section, .theme-bg-grad{
     background-image: linear-gradient(to right, #ff9200 , #fec055);
     -webkit-background-image: linear-gradient(to right, #ff9200 , #fec055);
     -moz-background-image: linear-gradient(to right, #ff9200 , #fec055);
@@ -77,7 +79,23 @@ p{
 .banner-form-container select.form-control{
     background: white;
 }
+.bg-light-grey, .bg-light-gray{
+    background: #f2f2f2;
+}
 
+section.statistics-section{
+    background: url('../images/statistics_banner.jpg') no-repeat left top / 100% 100%;
+}
+.profile-item-container{
+    position: relative;
+    overflow: hidden;
+}
+.profile-item-container .name-block{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
 
 
 
@@ -114,10 +132,20 @@ p{
     #long-slider .slide.left-slide{
         display: none !important;
     }
-    section.together-long-relationship-section{ 
+    section.together-long-relationship-section{
         background: url('../images/chakra_right_bottom_quarter.png') no-repeat left top / auto,
                     url('../images/chakra_left_top_quarter.png') no-repeat right bottom / auto,
-                    url('../images/hang_flower-double.png') no-repeat 47% top / auto;
+                    url('../images/hang_flower-double.png') no-repeat 47% top / auto 40%,
+                    url('../images/hang_flower-single.png') no-repeat 87% top / auto 40%;
+    }
+    section.getconnected-section{
+        background: url('../images/chakra_right_top_quarter.png') no-repeat left bottom / auto,
+                    url('../images/hang_flower-double.png') no-repeat 90% top / auto 257px;
+    }
+    section.profiles-section{
+        background: url('../images/chakra_right_bottom_quarter_white.png') no-repeat left top / auto, 
+                    url('../images/hang_flower-tripple.png') no-repeat 90% top / auto 257px,
+                    url('../images/chakra_left_top_quarter_white.png') no-repeat right bottom / auto, #f2f2f2;
     }
 }
 
