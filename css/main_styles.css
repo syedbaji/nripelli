@@ -84,6 +84,7 @@ p {
     height: 100%;
     top: 0;
     left: 0;
+    z-index: 9;
 }
 
 .banner-form-container select.form-control, .banner-form-container button {
@@ -115,10 +116,10 @@ section.statistics-section {
     -moz-background-image: linear-gradient(to right, transparent, transparent);
     -ms-background-image: linear-gradient(to right, transparent, transparent);
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 0;
     opacity: 0;
     z-index: 8;
     transition: all 1s ease;
@@ -130,7 +131,7 @@ section.statistics-section {
     -moz-background-image: linear-gradient(to right, #ff9200, #fec055);
     -ms-background-image: linear-gradient(to right, #ff9200, #fec055);
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
