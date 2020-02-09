@@ -378,6 +378,26 @@ section.statistics-section {
         position: relative;
         z-index: 9;
     }
+    .owl-carousel.bring-people-carousel .active.center{
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+    .owl-carousel.bring-people-carousel .active.next{
+        transform: scale(0.65) translate(-120px, 0px);
+        position: relative;
+        z-index: -1;
+        transition: all 0.5s ease-in-out;
+    }
+    .owl-carousel.bring-people-carousel .prev{
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .together-long-relationship-section .right-side-img-container{
+        transform: translate(-100px, 0px);
+    }
+    .together-long-relationship-section .right-block{
+        overflow: hidden;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
