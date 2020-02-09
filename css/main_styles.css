@@ -11,6 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: #555353;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,6 +71,18 @@ p {
     color: yellow;
 }
 
+.font-bold{
+    font-weight: bold;
+}
+
+.font-nri-color{
+    color: #ff9505;
+}
+
+.bg-nri-theme{
+    background: #ff9505;
+}
+
 .nri-logo {
     max-width: 120px;
 }
@@ -95,6 +108,10 @@ p {
 
 .banner-form-container select.form-control {
     background: white;
+}
+
+.bg-grey, .bg-gray {
+    background: #ccc;
 }
 
 .bg-light-grey, .bg-light-gray {
@@ -180,6 +197,63 @@ section.statistics-section {
 }
 .pack-box .nri-btn{
     border-radius: 0px !important;
+}
+.advanced-search-container h3,
+.advanced-search-container h2,
+.advanced-search-container h4,
+.advanced-search-container input,
+.advanced-search-container select,
+.advanced-search-container label {
+    color: #555353;
+    font-size: 14px;
+}
+.advanced-search-container label {
+    font-size: 12px;
+}
+.advanced-search-container input,
+.advanced-search-container select {
+    max-height: 30px;
+}
+.profile-item, .advanced-search-container{
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #ccc;
+    border-top: solid 2px #ff9505;
+}
+.profile-item .detail-row:nth-child(odd){
+    background: #f6f6f6;
+}
+.profile-item .detail-row:nth-child(even){
+    background: #fff;
+}
+.profile-item .profile-details-content{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.profile-item .profile-details-content .detail-column{
+    border-right: solid 0.5px #dee2e6;
+}
+.profile-item .profile-details-content .detail-column p.label{
+    text-transform: uppercase;
+    color: #555353;
+    font-size: 14px;
+}
+.profile-item .photo-container{
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 1px #dee2e6;
+}
+.page-item.active .page-link{
+    background: #ff9200;
+    border-color: #ff9200;
+}
+.membership-plans-section .plan-item:hover .pack-register button{
+    background-image: linear-gradient(to right, #ff9200, #fec055);
+    -webkit-background-image: linear-gradient(to right, #ff9200, #fec055);
+    -moz-background-image: linear-gradient(to right, #ff9200, #fec055);
+    -ms-background-image: linear-gradient(to right, #ff9200, #fec055);
+    padding: 4px 16px;
+    color: white;
+    text-shadow: 0.5px 0.5px 0px #000;
 }
 
 /*Info: // Extra small devices (portrait phones, less than 576px)
